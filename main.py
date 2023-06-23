@@ -7,7 +7,7 @@ from openpyxl import Workbook, load_workbook
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import *
-
+import resources
 # from viewRecordWindow import viewRecordClass
 
 class mainWindowClass(QMainWindow):
@@ -152,6 +152,8 @@ class tableWidgetClass(QMainWindow):
         # Adjust the size of the table widget to match the window size
         table_widget = self.tableWidget
         table_widget.setGeometry(0, 0, self.centralwidget.width(), self.centralwidget.height())
+
+    
 
 class viewRecordClass(QWidget):
     def __init__(self):

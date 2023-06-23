@@ -23,6 +23,41 @@ class Ui_MainWindow(object):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
         MainWindow.resize(800, 598)
+        MainWindow.setStyleSheet(u"\n"
+"            QTableView {\n"
+"                background-color: #ffffff; /* White background color */\n"
+"                border: 1px solid #000000;\n"
+"            }\n"
+"\n"
+"            QHeaderView::section {\n"
+"                background-color: #f2f2f2; /* Light gray background color */\n"
+"                color: #000000; /* Black text color */\n"
+"                border: none;\n"
+"                padding: 8px;\n"
+"                font-weight: bold;\n"
+"            }\n"
+"\n"
+"            QTableWidgetItem {\n"
+"                padding: 4px;\n"
+"            }\n"
+"     \n"
+"            QPushButton {\n"
+"                background-color: #FFFFFF; /* White background color */\n"
+"                color: #000000; /* Black text color */\n"
+"                border: none;\n"
+"                padding: 8px;\n"
+"                font-size: 12px;\n"
+"            }\n"
+"\n"
+"            QPushButton:hover {\n"
+"                background-color: #CCCCCC; /* Light gray background color on hover */\n"
+"            }\n"
+"\n"
+""
+                        "            QPushButton:pressed {\n"
+"                background-color: #999999; /* Dark gray background color when pressed */\n"
+"            }\n"
+"")
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
         self.tableWidget = QTableWidget(self.centralwidget)
