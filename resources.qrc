@@ -1,5 +1,6 @@
 <RCC>
   <qresource prefix="logo">
+    <file>white_text.jpg</file>
     <file>revamp_electric_text.png</file>
   </qresource>
 </RCC>
