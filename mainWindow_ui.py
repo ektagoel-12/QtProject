@@ -18,7 +18,7 @@ from PySide6.QtGui import (QAction, QBrush, QColor, QConicalGradient,
     QTransform)
 from PySide6.QtWidgets import (QApplication, QHBoxLayout, QLabel, QMainWindow,
     QPushButton, QSizePolicy, QSpacerItem, QWidget)
-import resources
+import resources_rc
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -112,7 +112,7 @@ class Ui_MainWindow(object):
         self.imageLabel.setObjectName(u"imageLabel")
         self.imageLabel.setGeometry(QRect(200, 70, 511, 141))
         self.imageLabel.setStyleSheet(u"")
-        self.imageLabel.setPixmap(QPixmap(u":/logo/white_text.jpg"))
+        self.imageLabel.setPixmap(QPixmap(u":/logo/images/white_text.jpg"))
         self.imageLabel.setScaledContents(True)
         self.textLabel = QLabel(self.centralwidget)
         self.textLabel.setObjectName(u"textLabel")
