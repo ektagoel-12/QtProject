@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled Python files
+*.pyc
+
+# Compiled UI files
+ui_*.py
+
+# Compiled resource files
+rc_*.py
+
+# Python virtual environment
+venv/
+env/
+
+# Qt project build directories
+build/
+deploy/
+release/
+debug/
+
+# Visual Studio Code files
+.vscode/
+
+# Qt Creator files
+*.pro.user
+*.qbs.user
+*.qmlproject.user
+

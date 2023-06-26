@@ -7,7 +7,7 @@ from openpyxl import Workbook, load_workbook
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import *
-import resources
+import resources_rc
 # from viewRecordWindow import viewRecordClass
 
 class mainWindowClass(QMainWindow):
